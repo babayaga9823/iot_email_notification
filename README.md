@@ -8,5 +8,5 @@ SMTP PORT: 587
 You need to encode your SMTP Username and SMTP Password to Base64 format with ASCII Character Set. 
 For this, you can either use an Arduino Library or a website called BASE64ENCODE.
 BASE64ENCODE (link)=https://www.base64encode.org
-Use client.println("") to send the text of the email
+Use client.println("Any message to be conveyed") to send the text of the email.
 NOTE : smtp2go servers not working so use the above which I have adopted.
